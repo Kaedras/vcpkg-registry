@@ -30,10 +30,13 @@ vcpkg_replace_string(${CURRENT_PACKAGES_DIR}/include/spdlog/tweakme.h
     "// #define SPDLOG_USE_STD_FORMAT"
     "#ifndef SPDLOG_USE_STD_FORMAT\n#define SPDLOG_USE_STD_FORMAT\n#endif"
 )
+# this feature is only supported on windows
+if(VCPKG_TARGET_IS_WINDOWS)
 vcpkg_replace_string(${CURRENT_PACKAGES_DIR}/include/spdlog/tweakme.h
     "// #define SPDLOG_WCHAR_TO_UTF8_SUPPORT"
     "#ifndef SPDLOG_WCHAR_TO_UTF8_SUPPORT\n#define SPDLOG_WCHAR_TO_UTF8_SUPPORT\n#endif"
 )
+endif()
 
 file(REMOVE_RECURSE
     "${CURRENT_PACKAGES_DIR}/include/spdlog/fmt/bundled"
