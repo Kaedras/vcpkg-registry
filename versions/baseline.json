@@ -10,7 +10,7 @@
     },
     "libloot": {
       "baseline": "0.23.0",
-      "port-version": 1
+      "port-version": 2
     },
     "mo2-archive": {
       "baseline": "1.1.0",
