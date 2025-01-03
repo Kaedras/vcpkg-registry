@@ -1,0 +1,4 @@
+libbsarchpp provides CMake targets:
+
+    find_package(libbsarchpp CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE libbsarchpp::libbsarchpp)
