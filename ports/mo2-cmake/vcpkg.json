@@ -2,7 +2,7 @@
   "name": "mo2-cmake",
   "version": "0.1.7",
   "description": "CMake utilities for building MO2 and its plugins.",
-  "homepage": "https://github.com/ModOrganizer2/cmake_common/",
+  "homepage": "https://github.com/Kaedras/cmake_common/",
   "license": "GPL-3.0",
   "supports": "!uwp"
 }
