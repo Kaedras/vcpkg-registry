@@ -7,10 +7,10 @@ set(VCPKG_POLICY_SKIP_COPYRIGHT_CHECK enabled)
 
 if(VCPKG_TARGET_IS_WINDOWS)
     set(OS windows)
-    set(SHA 657841a243b92c2c86623587387afc78cfd8a7896e43e7f1339f10b10c07ec14ceedb70a6f079a4a55120da350a07d0fcb47fbc21ecf8fc0368799dbda8e4e0a)
+    set(SHA df51d1e616a3ad7752d7cc793b45061fde83b13361b20e8a6db86808c8b666ae1f39a51939b0f0d74bae5328ebedf12b6b219a0b1a9a60d69ac063cdc19c70fd)
 else()
     set(OS linux)
-    set(SHA 210dd284e2c860ebaa96eacea9ce65e22d2f359be74ad2b63f6622b6f7c312ad683fb0f33c5c6412261b9d6063ac9e2e0a68a9f691914a04017dbe4b1f785ac0)
+    set(SHA cc22ee055389deecd23775ba0729a3f0ef9e7966115bd65e305d553795feec614f8d419e8fd32e18006784e37d2dd34a3f519b9f156ab763ca1a8561647ba762)
 endif()
 
 vcpkg_download_distfile(ARCHIVE
@@ -54,7 +54,6 @@ if(VCPKG_TARGET_IS_WINDOWS)
 else()
     file(INSTALL
         ${SOURCE_PATH}/lib/libuibase.so
-        ${SOURCE_PATH}/debug/libuibase.so.debug
     DESTINATION
         ${CURRENT_PACKAGES_DIR}/lib
     )
@@ -66,7 +65,6 @@ else()
 
     file(INSTALL
         ${SOURCE_PATH}/lib/libuibased.so
-        ${SOURCE_PATH}/debug/libuibased.so.debug
     DESTINATION ${CURRENT_PACKAGES_DIR}/debug/lib)
     file(INSTALL
         ${SOURCE_PATH}/lib/cmake
