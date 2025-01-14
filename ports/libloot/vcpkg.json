@@ -8,15 +8,11 @@
   "supports": "!uwp",
   "dependencies": [
     {
-      "name": "spdlog",
-      "platform": "linux"
-    },
-    {
       "name": "fmt",
       "platform": "linux"
     },
     {
-      "name": "yaml-cpp",
+      "name": "spdlog",
       "platform": "linux"
     },
     {
@@ -27,6 +23,10 @@
     {
       "name": "vcpkg-cmake-config",
       "host": true
+    },
+    {
+      "name": "yaml-cpp",
+      "platform": "linux"
     }
   ]
 }
