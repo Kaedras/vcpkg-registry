@@ -46,7 +46,7 @@
     },
     "mo2-uibase": {
       "baseline": "2.6.0-dev.5",
-      "port-version": 1
+      "port-version": 2
     },
     "pybind11": {
       "baseline": "2.13.1",
