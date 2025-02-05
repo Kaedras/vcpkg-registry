@@ -4,8 +4,8 @@ set(VCPKG_POLICY_DLLS_IN_STATIC_LIBRARY enabled)
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO Kaedras/modorganizer-archive
-    REF a3331cfc839ed3e4c4b43ca2d2fd8068ad4a1c02
-    SHA512 529653fceac9ad6715ecd66ca018e771fb5992494fedd18e94d92a5a5b0c9708cd25f23457f1f7c66eb30c22d296cbeed8add1d7c5b725fa08f6d33df3a9a8bc
+    REF 14bf465b04effeccb456db87c4b46f939c74ad76
+    SHA512 08cf417fe12a414fca47d7d8bda5d67647c50a6a2f6b860ed6c5646835a1ba0c67d12adb972cc7a3bb515f6065e0247fa201d7e76d590a8007313c9f1e6ad6a3
     HEAD_REF master
 )
 
