@@ -1,6 +1,6 @@
 {
   "name": "mo2-uibase",
-  "version": "2.6.0-dev.5-r9",
+  "version": "2.6.0-dev.5-r10",
   "description": "C++ API for ModOrganizer2.",
   "homepage": "https://github.com/Kaedras/modorganizer-uibase",
   "license": "GPL-3.0",
