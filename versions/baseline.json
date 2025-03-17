@@ -44,6 +44,10 @@
       "baseline": "1.3.12",
       "port-version": 1
     },
+    "mo2-overlayfs": {
+      "baseline": "1.0.0",
+      "port-version": 0
+    },
     "mo2-uibase": {
       "baseline": "2.6.0-dev.5-r13",
       "port-version": 0

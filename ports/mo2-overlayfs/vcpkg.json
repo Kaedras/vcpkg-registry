@@ -1,0 +1,19 @@
+{
+  "name": "mo2-overlayfs",
+  "version": "1.0.0",
+  "description": "Overlayfs library for ModOrganizer 2.",
+  "homepage": "https://github.com/Kaedras/mo2-overlayfs",
+  "license": "GPL-3.0-or-later",
+  "supports": "!uwp",
+  "dependencies": [
+    "spdlog",
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}
