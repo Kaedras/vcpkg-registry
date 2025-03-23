@@ -66,7 +66,7 @@
     },
     "vdf-parser": {
       "baseline": "v1.1.1",
-      "port-version": 0
+      "port-version": 1
     }
   }
 }
