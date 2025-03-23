@@ -63,6 +63,10 @@
     "usvfs": {
       "baseline": "0.5.6.2",
       "port-version": 0
+    },
+    "vdf-parser": {
+      "baseline": "v1.1.1",
+      "port-version": 0
     }
   }
 }

@@ -1,0 +1,14 @@
+{
+  "name": "vdf-parser",
+  "version-string": "v1.1.1",
+  "description": "Valve Data Format (.vdf) Reader and Writer",
+  "homepage": "https://github.com/TinyTinni/ValveFileVDF",
+  "license": "MIT",
+  "supports": "!uwp",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}
