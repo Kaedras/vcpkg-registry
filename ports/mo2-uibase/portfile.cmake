@@ -7,10 +7,10 @@ set(VCPKG_POLICY_SKIP_COPYRIGHT_CHECK enabled)
 
 if(VCPKG_TARGET_IS_WINDOWS)
     set(OS windows)
-    set(SHA 5590fce5f85ad0b4957bb7b78189547e25bc14037b463e1ccf4b04ac59cab9d7a8c22df61f417bc113a3b6e3508fa4766ebceea452addaadf06f0033e7de2fdb)
+    set(SHA 7999776ea698251c889472a977b1cd7a5b2c85aa983d958a326831c6fe01befb975157e3eb4dbded59b6ddefbcb57b0e72466b1a5bbbb59b5d283f2de034e3c0)
 else()
     set(OS linux)
-    set(SHA 798b35866f6a2e99cc33035f4dcfca1313bfe6b31dd81ec4d7c5f501eb48091f73883f6b897a7c1d6dc94a5465cbc2fd41d49a8b9b7b73d857aef83eecb709f5)
+    set(SHA 109ce0a8a2e7f274843e9b878484af30278814684655a583cfaeececb1d3c6434556b8cc52ba8663c909bafc5b83ba17fdcdb4137c28548efbf15c46a433e735)
 endif()
 
 vcpkg_download_distfile(ARCHIVE
