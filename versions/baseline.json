@@ -8,6 +8,10 @@
       "baseline": "fb9f82c",
       "port-version": 0
     },
+    "bit7z": {
+      "baseline": "4.0.9",
+      "port-version": 0
+    },
     "libbsarchpp": {
       "baseline": "1.0.0",
       "port-version": 0

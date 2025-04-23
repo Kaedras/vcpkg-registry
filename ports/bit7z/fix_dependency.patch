@@ -1,0 +1,15 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 9d85e165..b8ee4672 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -213,7 +213,9 @@ include( cmake/BuildOptions.cmake )
+ include( cmake/CompilerOptions.cmake )
+ 
+ # dependencies
+-include( cmake/Dependencies.cmake )
++#include( cmake/Dependencies.cmake )
++find_package(7zip CONFIG REQUIRED)
++add_library(7-zip ALIAS 7zip::7zip)
+ 
+ if( BIT7Z_USE_PCH AND CMAKE_VERSION VERSION_GREATER_EQUAL "3.16.0" )
+     target_precompile_headers( ${LIB_TARGET}
