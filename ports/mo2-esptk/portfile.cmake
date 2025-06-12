@@ -1,7 +1,7 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO Kaedras/modorganizer-esptk
-    REF 915df3a413a000be0156c04b4819dad4a5213211
+    REF "${VERSION}"
     SHA512 07be6059a1345d0507c44736df4e532eb027a27cf30a03e2382534558236430b43e1d7e1a63fa7d073ad204c10c5fec7475be9f107da49ad857dcc063c6c737c
     HEAD_REF master
 )
