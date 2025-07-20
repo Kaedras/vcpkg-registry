@@ -45,7 +45,7 @@ index 7b0d386..8c8c74c 100644
 
  ##############################
  # General Settings
-@@ -316,7 +284,6 @@ target_link_libraries(loot PRIVATE
+@@ -316,6 +284,5 @@ target_link_libraries(loot PRIVATE
      ${ESPLUGIN_LIBRARIES}
      ${LIBLOADORDER_LIBRARIES}
      ${LCI_LIBRARIES}
