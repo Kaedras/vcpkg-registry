@@ -32,8 +32,9 @@ else()
         OUT_SOURCE_PATH SOURCE_PATH
         REPO loot/libloot
         REF "${VERSION}"
-        SHA512 c9a4bf8ba9a35f5a9ec76cffba439c717d655f09c73bfbe0fc808314d6b295cd5d45ae8a255e36dfdc4da2b39f76aa22fdc9d12302123773b80cd5682638373a
+        SHA512 3102e6315f05dec5a510a88e955e9c2ef449519c1b779852ecbfbfb1472afb0ce440d815781cbbd496ad07b932e572bfc07ded53bf4116dbeea9a407f19af13c
         HEAD_REF master
+        PATCHES fix-dependencies.patch
     )
 
     vcpkg_cmake_configure(
