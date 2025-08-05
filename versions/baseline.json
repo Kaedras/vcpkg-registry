@@ -46,7 +46,7 @@
     },
     "mo2-lootcli-header": {
       "baseline": "1.7.0",
-      "port-version": 0
+      "port-version": 1
     },
     "mo2-overlayfs": {
       "baseline": "1.0.0",
