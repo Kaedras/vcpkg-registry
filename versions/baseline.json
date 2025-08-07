@@ -25,8 +25,8 @@
       "port-version": 0
     },
     "mo2-cmake": {
-      "baseline": "2.5.3-beta.2",
-      "port-version": 1
+      "baseline": "2.5.3-beta.3",
+      "port-version": 0
     },
     "mo2-dds-header": {
       "baseline": "jun2024",
