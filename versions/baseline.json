@@ -16,6 +16,10 @@
       "baseline": "0.26.3",
       "port-version": 2
     },
+    "lief": {
+      "baseline": "0.16.6",
+      "port-version": 0
+    },
     "mo2-archive": {
       "baseline": "2.0.0",
       "port-version": 0
