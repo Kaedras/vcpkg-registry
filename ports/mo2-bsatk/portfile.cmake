@@ -2,7 +2,7 @@ vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO Kaedras/modorganizer-bsatk
     REF "${VERSION}"
-    SHA512 ab2aa341af33e60cf0874db51eb7d273f6e31c663d3f3a993f59b292e95f1c3a6a577e8b01fd6400ccc3f20b2ade0cfdc838f97524b5ca5aab56f6f7c079aa0f
+    SHA512 8100c77d9a477ca278e29fc374f6db0c1059e4d9c9052662f91f04fb47ba5af3f213faca408742e37dde515570fa8afe96598164d5ca6a93aaa580f7d16a45de
     HEAD_REF master
 )
 
