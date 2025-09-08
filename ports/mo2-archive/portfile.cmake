@@ -5,7 +5,7 @@ vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO Kaedras/modorganizer-archive
     REF "${VERSION}"
-    SHA512 5d5c0c78a1d9cca75e4f784c7c902c28e54e9848ac26b0118762a074b45c4dfe52e193526d8a184518d11c376a8c27ca9afd4a53a6538a1330a24fac2b337108
+    SHA512 a8b0c2ffce8c10dace6bdd8f06749e994aa5a5c51eb98b6e38c6ef2025caf48bdcf1bce63b3f2a1edda33c32ac7bdea3e7a42f13c06d9a201ebed6cc2f818de8
     HEAD_REF master
 )
 
