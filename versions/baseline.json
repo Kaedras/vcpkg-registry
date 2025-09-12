@@ -14,7 +14,7 @@
     },
     "libloot": {
       "baseline": "0.26.3",
-      "port-version": 2
+      "port-version": 3
     },
     "lief": {
       "baseline": "0.16.6",

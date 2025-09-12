@@ -1,12 +1,16 @@
 {
   "name": "libloot",
   "version": "0.26.3",
-  "port-version": 2,
+  "port-version": 3,
   "description": "A C++ library for accessing LOOT's metadata and sorting functionality.",
   "homepage": "https://github.com/loot/libloot/",
   "license": "GPL-3.0",
   "supports": "!uwp",
   "dependencies": [
+    {
+      "name": "fmt",
+      "platform": "linux"
+    },
     {
       "name": "spdlog",
       "platform": "linux"
