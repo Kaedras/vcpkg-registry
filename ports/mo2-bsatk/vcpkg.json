@@ -1,7 +1,6 @@
 {
   "name": "mo2-bsatk",
-  "version": "1.4.1",
-  "port-version": 3,
+  "version": "1.4.1-r1",
   "description": "MO2 library to handle BSA files.",
   "homepage": "https://github.com/ModOrganizer2/modorganizer-bsatk",
   "license": "GPL-3.0",
