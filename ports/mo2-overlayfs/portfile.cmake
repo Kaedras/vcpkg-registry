@@ -1,8 +1,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO Kaedras/mo2-overlayfs
-    REF 07e951be41958f4fdb829b8fbc5853ea0b5cfea7
-    SHA512 46e49d958dff4e851025e7edcbe581f9c44e69ee2d5d7a6d446fbb31f56085e862ab3fcc33850f2cbee3a24ee1999807da2faca074dc93d947abdc33c55e5dbb
+    REF 31963beabbc8ecc13d6f9ee5f8a66e927b438ee0
+    SHA512 37ea2897db5942abf678fe604a81ddb92d224a3293d060132cb184ef27093decc22234b90f0047e60929db9da082ea0779eaed3a8da50599455467d2abb15abf
     HEAD_REF master
 )
 
