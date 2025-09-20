@@ -1,12 +1,32 @@
 {
   "name": "libloot",
   "version": "0.26.3",
-  "port-version": 3,
+  "port-version": 4,
   "description": "A C++ library for accessing LOOT's metadata and sorting functionality.",
   "homepage": "https://github.com/loot/libloot/",
   "license": "GPL-3.0",
   "supports": "!uwp",
   "dependencies": [
+    {
+      "name": "boost-algorithm",
+      "platform": "linux"
+    },
+    {
+      "name": "boost-container",
+      "platform": "linux"
+    },
+    {
+      "name": "boost-crc",
+      "platform": "linux"
+    },
+    {
+      "name": "boost-graph",
+      "platform": "linux"
+    },
+    {
+      "name": "boost-unordered",
+      "platform": "linux"
+    },
     {
       "name": "fmt",
       "platform": "linux"

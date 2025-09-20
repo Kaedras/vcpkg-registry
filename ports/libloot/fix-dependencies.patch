@@ -1,8 +1,29 @@
 diff --git a/CMakeLists.txt b/CMakeLists.txt
-index 7b0d386..ead868b 100644
+index 7b0d386..c6186ad 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -156,40 +156,9 @@ else()
+@@ -7,7 +7,6 @@ if(POLICY CMP0167)
+ endif()
+ project(libloot)
+ include(ExternalProject)
+-include(FetchContent)
+ include(CMakePackageConfigHelpers)
+ include(GNUInstallDirs)
+
+@@ -49,7 +48,11 @@ configure_file("${CMAKE_SOURCE_DIR}/src/api/loot_version.cpp.in" "${CMAKE_BINARY
+ set(Boost_USE_STATIC_LIBS ON)
+ set(Boost_USE_MULTITHREADED ON)
+ set(Boost_USE_STATIC_RUNTIME OFF)
+-find_package(Boost REQUIRED CONFIG)
++find_package(Boost REQUIRED CONFIG COMPONENTS algorithm container crc graph unordered)
++
++find_package(fmt CONFIG REQUIRED)
++find_package(spdlog CONFIG REQUIRED)
++find_package(yaml-cpp CONFIG REQUIRED)
+
+ if(NOT DEFINED RUST_TARGET AND WIN32)
+     if(MSVC)
+@@ -156,41 +159,6 @@ else()
      set(LCI_LIBRARIES ${LCI_LIBRARIES} dl)
  endif()
 
@@ -40,9 +61,20 @@ index 7b0d386..ead868b 100644
 -
 -# Restore the original value of BUILD_SHARED_LIBS.
 -set(BUILD_SHARED_LIBS ${LIBLOOT_BUILD_SHARED_LIBS})
-+find_package(fmt CONFIG REQUIRED)
-+find_package(spdlog CONFIG REQUIRED)
-+find_package(yaml-cpp CONFIG REQUIRED)
-
+-
  ##############################
  # General Settings
+ ##############################
+@@ -312,7 +280,11 @@ add_dependencies(loot
+     libloadorder
+     loot-condition-interpreter)
+ target_link_libraries(loot PRIVATE
+-    Boost::headers
++    Boost::algorithm
++    Boost::container
++    Boost::crc
++    Boost::graph
++    Boost::unordered
+     ${ESPLUGIN_LIBRARIES}
+     ${LIBLOADORDER_LIBRARIES}
+     ${LCI_LIBRARIES}
