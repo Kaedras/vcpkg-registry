@@ -4,7 +4,7 @@ if(VCPKG_TARGET_IS_WINDOWS)
     vcpkg_download_distfile(ARCHIVE
         URLS "https://github.com/loot/libloot/releases/download/${VERSION}/libloot-${VERSION}-win64.7z"
         FILENAME "libloot-${VERSION}-win64.7z"
-        SHA512 29D3EBC405B875022F9957F71D2FCB7234AD3386CBFEF3D98629312F695C042BB1E43E8F57A9132B7070D8493DC406AF766D7FC2FAE59C14C4E98F1DBC87BFBB
+        SHA512 9051862f6de284575a7ab6157a6c686d036b6d29fad374967a2314947de0674f0520793fd5e30bfbfdc02a1006f0f82f2bb12ad73d3b23b306739dd0ed6c29a5
     )
 
     vcpkg_extract_source_archive_ex(
@@ -35,13 +35,12 @@ else()
         OUT_SOURCE_PATH SOURCE_PATH
         REPO loot/libloot
         REF "${VERSION}"
-        SHA512 3102e6315f05dec5a510a88e955e9c2ef449519c1b779852ecbfbfb1472afb0ce440d815781cbbd496ad07b932e572bfc07ded53bf4116dbeea9a407f19af13c
+        SHA512 ee63f5a2a874c892133526ed8186e9905bb309819f522f96dc80679fa17b74211a2cb6f2d93ae357152d10480ac09e6eb4e69898924aebd9bdeb2fb850b4693a
         HEAD_REF master
-        PATCHES fix-dependencies.patch
     )
 
     vcpkg_cmake_configure(
-        SOURCE_PATH "${SOURCE_PATH}"
+        SOURCE_PATH "${SOURCE_PATH}/cpp"
         OPTIONS
             -DLIBLOOT_BUILD_TESTS=OFF
             -DLIBLOOT_INSTALL_DOCS=OFF
