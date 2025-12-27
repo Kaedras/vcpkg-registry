@@ -72,6 +72,10 @@
       "baseline": "0.5.7.1",
       "port-version": 0
     },
+    "usvfs-fuse": {
+      "baseline": "0.1",
+      "port-version": 0
+    },
     "vdf-parser": {
       "baseline": "v1.1.1",
       "port-version": 1

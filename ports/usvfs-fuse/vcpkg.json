@@ -1,0 +1,20 @@
+{
+  "name": "usvfs-fuse",
+  "version": "0.1",
+  "description": "Reimplementation of usvfs using libfuse.",
+  "homepage": "https://github.com/Kaedras/usvfs-fuse",
+  "license": "GPL-3.0",
+  "supports": "linux",
+  "dependencies": [
+    "icu",
+    "spdlog",
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}
