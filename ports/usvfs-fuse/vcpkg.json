@@ -1,6 +1,6 @@
 {
   "name": "usvfs-fuse",
-  "version": "0.1",
+  "version": "0.2",
   "description": "Reimplementation of usvfs using libfuse.",
   "homepage": "https://github.com/Kaedras/usvfs-fuse",
   "license": "GPL-3.0",
