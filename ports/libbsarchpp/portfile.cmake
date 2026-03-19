@@ -2,11 +2,11 @@ vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO Kaedras/libbsarchpp
     REF "${VERSION}"
-    SHA512 4a38998e55cc9ffc00c527c2b439a240cb462e6425faebe9ebed650ba3580cc3030f4587db36078263b5134c66c801ecb218271e8ed4754a23284a33c5f9c565
+    SHA512 0e7e3c3ac083689de3fcedcf3f6554d7b444b41341a274d7145e3d424de8ba7b8a6af5f904fa85797ca3fb3d86133acbb2c0f708ca6737e8c035156c607a86f5
     HEAD_REF master
 )
 
-vcpkg_cmake_configure(SOURCE_PATH "${SOURCE_PATH}" OPTIONS -DUSE_VCPKG=ON)
+vcpkg_cmake_configure(SOURCE_PATH "${SOURCE_PATH}" OPTIONS)
 vcpkg_cmake_install()
 vcpkg_copy_pdbs()
 vcpkg_cmake_config_fixup(PACKAGE_NAME "libbsarchpp" CONFIG_PATH "lib/cmake/libbsarchpp")
