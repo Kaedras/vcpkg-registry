@@ -38,7 +38,7 @@
     },
     "mo2-dxgiformat-header": {
       "baseline": "v1.616.0",
-      "port-version": 0
+      "port-version": 1
     },
     "mo2-esptk": {
       "baseline": "1.4.0",

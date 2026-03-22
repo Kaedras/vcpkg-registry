@@ -1,6 +1,7 @@
 {
   "name": "mo2-dxgiformat-header",
   "version-string": "v1.616.0",
+  "port-version": 1,
   "description": "dxgiformat.h header from DirectX-Headers",
   "homepage": "https://github.com/microsoft/DirectX-Headers",
   "license": "MIT",
