@@ -4,7 +4,7 @@ if(VCPKG_TARGET_IS_WINDOWS)
     vcpkg_download_distfile(ARCHIVE
         URLS "https://github.com/loot/libloot/releases/download/${VERSION}/libloot-${VERSION}-win64.7z"
         FILENAME "libloot-${VERSION}-win64.7z"
-        SHA512 9051862f6de284575a7ab6157a6c686d036b6d29fad374967a2314947de0674f0520793fd5e30bfbfdc02a1006f0f82f2bb12ad73d3b23b306739dd0ed6c29a5
+        SHA512 66516b0b905f299666ed6c0e32312aeda84ef7bf0000d428691aa4483312060c44e6b159e70116e0d8cdd5733c23a9da2de73c6d8a01b1db757eb45b45a25100
     )
 
     vcpkg_extract_source_archive_ex(
@@ -35,7 +35,7 @@ else()
         OUT_SOURCE_PATH SOURCE_PATH
         REPO loot/libloot
         REF "${VERSION}"
-        SHA512 ee63f5a2a874c892133526ed8186e9905bb309819f522f96dc80679fa17b74211a2cb6f2d93ae357152d10480ac09e6eb4e69898924aebd9bdeb2fb850b4693a
+        SHA512 4c2576751b4b56e3f889a62813685b4c65585756bd36d5764cb280d386ac67524d884848e3722409c3f9be6ffc7b22ff7333302e41a49ed2babd42e22e32a5ff
         HEAD_REF master
     )
 
