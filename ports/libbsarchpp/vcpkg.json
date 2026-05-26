@@ -1,11 +1,15 @@
 {
   "name": "libbsarchpp",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Library to handle Bethesda archives.",
   "homepage": "https://github.com/Kaedras/libbsarchpp",
   "license": "GPL-3.0",
   "dependencies": [
     "lz4",
+    {
+      "name": "tbb",
+      "platform": "linux | freebsd | openbsd"
+    },
     {
       "name": "vcpkg-cmake",
       "host": true
