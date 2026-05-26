@@ -1,6 +1,7 @@
 {
   "name": "libbsarchpp",
   "version": "1.0.7",
+  "port-version": 1,
   "description": "Library to handle Bethesda archives.",
   "homepage": "https://github.com/Kaedras/libbsarchpp",
   "license": "GPL-3.0",
