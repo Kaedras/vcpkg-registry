@@ -10,7 +10,7 @@
     },
     "bit7z": {
       "baseline": "4.1.0-beta",
-      "port-version": 0
+      "port-version": 1
     },
     "libbsarchpp": {
       "baseline": "1.0.7",
