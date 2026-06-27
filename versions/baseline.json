@@ -73,7 +73,7 @@
       "port-version": 0
     },
     "usvfs-fuse": {
-      "baseline": "0.7",
+      "baseline": "0.9",
       "port-version": 0
     },
     "valvefilevdf": {
