@@ -5,7 +5,7 @@ vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO Kaedras/cmake_common
     REF "v${VERSION}"
-    SHA512 ad50aa6719f52a4effd0aee6376c4ca0dc8c8300967811f4a26e6bbad011a7db0a96f0b32ee954fb36f8613ecc1d1d1d86d8381116a8036ddd8ea024cd727247
+    SHA512 4eac9fa2eb84562edc930b782bcd0a1c5fcd91b1a628f158758f9bb54f18a9999bb8bdb1cfb50d7cb1e0be34ab536235ca0498b51628ffb6629c4483437a134a
     HEAD_REF master
 )
 
