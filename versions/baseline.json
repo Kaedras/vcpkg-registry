@@ -8,20 +8,12 @@
       "baseline": "fb9f82c",
       "port-version": 0
     },
-    "bit7z": {
-      "baseline": "4.1.0-beta",
-      "port-version": 1
-    },
     "libbsarchpp": {
       "baseline": "1.0.7",
       "port-version": 1
     },
     "libloot": {
       "baseline": "0.29.4",
-      "port-version": 0
-    },
-    "lief": {
-      "baseline": "0.16.6",
       "port-version": 0
     },
     "mo2-archive": {
@@ -78,10 +70,6 @@
     },
     "valvefilevdf": {
       "baseline": "1.1.1",
-      "port-version": 1
-    },
-    "vdf-parser": {
-      "baseline": "v1.1.1",
       "port-version": 1
     }
   }
