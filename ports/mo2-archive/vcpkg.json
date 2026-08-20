@@ -1,6 +1,6 @@
 {
   "name": "mo2-archive",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "description": "MO2 archive extraction component.",
   "homepage": "https://github.com/ModOrganizer2/modorganizer-archive",
   "license": "GPL-3.0",
